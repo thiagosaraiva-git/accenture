@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  backend:
+    build: ./api
+    ports:
+      - "3000:3000"
+    environment:
+      MONGO_URI: "mongodb+srv://saraii:abcde@storecluster.l6ak1wu.mongodb.net/accenture_db"
+
+  frontend:
+    build: ./app
+    ports:
+      - "3001:3001"
