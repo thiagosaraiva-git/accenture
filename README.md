@@ -72,7 +72,7 @@ O Aplicativo de Análise de Logs é uma solução desenvolvida para extrair, ide
 3. **Execute o aplicativo usando Docker Compose:**
 
     ```bash
-    docker-compose up
+    docker compose up
     ```
 
 ## Documentação da API
